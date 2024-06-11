@@ -15,8 +15,8 @@ namespace KMP_algorithum
             // При даден стринг и даден шаблон (pattern) да проверим дали дадения шаблон се намира в дадения стринг, като изкараме индексите, на които се намира
 
             // Даден пример: string text = abcabaabcabac, string pattern = abba
-            string text = "abcabbabcabakkokokkjhf";
-            string pattern = "abba";
+            string text = Console.ReadLine();
+            string pattern = Console.ReadLine();
 
             int i = 0;
             int j = 0;
